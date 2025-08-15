@@ -17,6 +17,7 @@ nav {
     display: flex;
     padding: 10px;
     margin-bottom: 20px;
+    border: 4px rgb(0,0,0) ridge;
 }
 
 h1 {
@@ -46,9 +47,10 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(255, 131, 69);
+    background: rgb(255,131,69);
     display: flex;
     margin-top: 20px;
+    border: 4px rgb(0,0,0) ridge;
 }
 
 .sidebar {
@@ -58,6 +60,7 @@ main {
 
 #sidebar-img {
     width: 200px;
+    border: 4px rgb(0,0,0) ridge;
 }
 
 .content {
@@ -67,7 +70,7 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px rgb(0, 0, 0) ridge;
+    border: 4px rgb(0,0,0) ridge;
     padding: 8px;
     margin-top: 20px;
 }
