@@ -59,7 +59,12 @@ main {
 }
 
 #sidebar-img {
-    width: 200px;
+    width: 194px;
+    border: 4px rgb(0,0,0) ridge;
+}
+
+#sidebar-img-two {
+    width: 157px;
     border: 4px rgb(0,0,0) ridge;
 }
 
