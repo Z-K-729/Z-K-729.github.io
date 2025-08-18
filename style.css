@@ -90,17 +90,18 @@ h2, h3 {
 }
 
 #portfolio li {
-    background: #ffffff;
+    background: #636363;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+    border: 4px rgb(0,0,0) ridge;
 }
 
 #portfolio li:hover {
-    background: #eee;
+    background: #ffffff;
 }
 
 #portfolio a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
