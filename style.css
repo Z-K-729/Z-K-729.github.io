@@ -63,11 +63,6 @@ main {
     border: 4px rgb(0,0,0) ridge;
 }
 
-#sidebar-img-two {
-    width: 200px;
-    border: 4px rgb(0,0,0) ridge;
-}
-
 .content {
     flex: 1;
     padding: 15px;
