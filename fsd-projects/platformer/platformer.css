@@ -3,7 +3,7 @@ body {
 }
 
 canvas {
-  background-color: lightblue;
+  background-color: oklab(76.619% -0.024 -0.03093);
   margin: 20px;
 }
 
