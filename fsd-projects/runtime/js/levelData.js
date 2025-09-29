@@ -18,6 +18,9 @@ var makeLevelData = function (window) {
           { type: "sawblade", x: 400, y: groundY },
           { type: "sawblade", x: 600, y: groundY },
           { type: "sawblade", x: 900, y: groundY },
+          { type: "enemy", x: 700, y: groundY - 50 },
+          { type: "reward", x: 1500, y: 250 },
+          { type: "marker", x: 3000, y: 230 },
         ],
       },
       {
@@ -28,8 +31,20 @@ var makeLevelData = function (window) {
           { type: "sawblade", x: 400, y: groundY },
           { type: "sawblade", x: 600, y: groundY },
           { type: "sawblade", x: 900, y: groundY },
+          { type: "marker", x: 3000, y: 230 },
         ],
       },
+      {
+        name: "Robocalypse Rising",
+        number: 3,
+        speed: -3,
+        gameItems: [
+          { type: "sawblade", x: 400, y: groundY },
+          { type: "sawblade", x: 600, y: groundY },
+          { type: "sawblade", x: 900, y: groundY },
+          { type: "marker", x: 3000, y: 230 },
+        ]
+      }
     ];
     window.opspark.levelData = levelData;
   };

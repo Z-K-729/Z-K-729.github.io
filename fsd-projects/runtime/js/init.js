@@ -21,7 +21,7 @@ var init = function (window) {
     playerManager,
     particleManager;
 
-  var debugHalleHitZones = false;
+  var debugHalleHitZones = true;
 
   space = app.space;
   (rules = app.rules),
@@ -34,7 +34,7 @@ var init = function (window) {
   var help = draw.textfield(
     "MOVES || up: jump | right: flying jump | down: duck | space: fire | q self destruct!",
     "20px Arial",
-    "#ccc",
+    "#000000ff",
     "left"
   );
   help.x = 10;
