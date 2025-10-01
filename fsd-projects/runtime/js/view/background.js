@@ -65,13 +65,13 @@ var background = function (window) {
             }
             var bigBuilding = draw.rect(10, 10, "darkBlue", "black", 0.1);
             bigBuilding.x = 1000;
-            bigBuilding.y = 127;
+            bigBuilding.y = groundY - 160;
             bigBuilding.scaleX = 20.0;
             bigBuilding.scaleY = 16.0;
             background.addChild(bigBuilding);
             var smokestack = draw.rect(10, 10, "darkBlue", "black", 0.2);
             smokestack.x = 1020;
-            smokestack.y = 26;
+            smokestack.y = groundY - 260;
             smokestack.scaleX = 4.0;
             smokestack.scaleY = 10.0;
             background.addChild(smokestack);
