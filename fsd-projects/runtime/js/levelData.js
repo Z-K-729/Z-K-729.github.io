@@ -24,8 +24,8 @@ var makeLevelData = function (window) {
           { type: "enemy", x: 700, y: groundY - 50 },
           { type: "enemy", x: 1800, y: groundY - 30 },
           { type: "enemy", x: 2600, y: groundY - 50 },
-          { type: "reward", x: 1500, y: 250 },
-          { type: "marker", x: 3000, y: 230 },
+          { type: "reward", x: 1500, y: groundY - 50 },
+          { type: "marker", x: 3000, y: groundY - 50 },
         ],
       },
       {
@@ -44,8 +44,8 @@ var makeLevelData = function (window) {
           { type: "enemy", x: 2300, y: groundY - 30 },
           { type: "enemy", x: 2400, y: groundY - 50 },
           { type: "enemy", x: 2500, y: groundY - 30 },
-          { type: "reward", x: 2750, y: 250 },
-          { type: "marker", x: 3000, y: 230 },
+          { type: "reward", x: 2750, y: groundY - 50 },
+          { type: "marker", x: 3000, y: groundY - 50 },
         ],
       },
       {
@@ -66,7 +66,8 @@ var makeLevelData = function (window) {
           { type: "enemy", x: 1400, y: groundY - 30 },
           { type: "enemy", x: 1500, y: groundY - 50 },
           { type: "enemy", x: 1600, y: groundY - 30 },
-          { type: "marker", x: 3000, y: 230 },
+          { type: "reward", x: 2000, y: groundY - 50 },
+          { type: "marker", x: 3000, y: groundY - 50 },
         ]
       }
     ];
